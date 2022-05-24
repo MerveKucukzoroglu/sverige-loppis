@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/4877778.jpg') no-repeat center center fixed; /*Credits for this image belongs to freepik. More details in README.md*/
+    background: url('/media/background_main.jpg') no-repeat center center fixed; /*Credits for this image belongs to freepik. More details in README.md*/
     background-size: cover;
     height: calc(100vh - 164px);
     color: #101A21;
@@ -20,12 +20,9 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
-}
-
-.main-logo-link {
-    width: fit-content;
+.logo-img {
+    width: 300px;
+    height: auto;
 }
 
 .loppis-now-button {
