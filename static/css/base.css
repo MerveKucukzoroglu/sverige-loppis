@@ -37,6 +37,10 @@ body {
     font-size: 30px;
 }
 
+.fa-icon:hover {
+    color:#025b7c;
+}
+
 .text-dark {
     color:#101A21;
 }
@@ -55,11 +59,11 @@ body {
 }
 
 /* Home Page */
-
 .loppis-now-button {
     background: #FFB300;
     color:#101A21;
     min-width: 260px;
+    margin: 20px;
 }
 
 .loppis-now-button:hover,
