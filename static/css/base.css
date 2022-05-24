@@ -21,7 +21,7 @@ body {
 }
 
 .logo-img {
-    width: 300px;
+    width:99%;
     height: auto;
 }
 
@@ -31,27 +31,27 @@ body {
     min-width: 260px;
 }
 
-.btn-black {
-    background: black;
+.btn-dark {
+    background:#101A21;
     color: white;
 }
 
 .loppis-now-button:hover,
 .loppis-now-button:active,
 .loppis-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
     background: #025b7c;
     color: white;
 }
 
-.text-black {
-    color: #000 !important;
+.text-dark {
+    color:#101A21 !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.border-dark {
+    border: 1px solid #101A21 !important;
 }
 
 /* -------------------------------- Media Queries */
