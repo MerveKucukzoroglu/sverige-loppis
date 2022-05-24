@@ -79,11 +79,12 @@ body {
 /*Footer*/
 
 #footer {
-position:absolute;
-   bottom:0;
-   width: 100%;
-   height:60px;   /* Height of the footer */
-   background: #ffff;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:auto;   /* Height of the footer */
+    background:#101A21;
+    color:white;
   }
 
 /* -------------------------------- Media Queries */
