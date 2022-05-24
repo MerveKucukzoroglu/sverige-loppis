@@ -8,6 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #101A21;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 
@@ -21,19 +22,44 @@ body {
 }
 
 .logo-img {
-    width:99%;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 
-.loppis-now-button {
-    background: #101A21;
-    color: white;
-    min-width: 260px;
+.header-row {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.fa-icon {
+    color:#101A21;
+    font-size: 30px;
+}
+
+.text-dark {
+    color:#101A21;
 }
 
 .btn-dark {
     background:#101A21;
     color: white;
+}
+
+.text-dark {
+    color:#101A21 !important;
+}
+
+.border-dark {
+    border: 1px solid #101A21 !important;
+}
+
+/* Home Page */
+
+.loppis-now-button {
+    background: #FFB300;
+    color:#101A21;
+    min-width: 260px;
 }
 
 .loppis-now-button:hover,
@@ -46,13 +72,7 @@ body {
     color: white;
 }
 
-.text-dark {
-    color:#101A21 !important;
-}
 
-.border-dark {
-    border: 1px solid #101A21 !important;
-}
 
 /* -------------------------------- Media Queries */
 
