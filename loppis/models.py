@@ -40,6 +40,7 @@ class Loppis(models.Model):
     street_address = models.CharField(max_length=80, null=False, blank=False)
     phone_number = models.CharField(max_length=20, null=False, blank=True)
     image = models.ImageField(null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
     details = models.TextField(max_length=254, null=True, blank=True)
 
     def __str__(self):
