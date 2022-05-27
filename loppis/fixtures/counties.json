@@ -2,7 +2,7 @@
         "pk": 1, 
         "model": "loppis.county", 
         "fields": {"county": "blekinge", 
-            "friendly_name": "Blekinge"}
+            "friendly_name": "Blekinge län"}
     },
     {
         "pk": 2, 
@@ -44,7 +44,7 @@
         "pk": 8, 
         "model": "loppis.county", 
         "fields": {"county": "kalmar", 
-            "friendly_name": "Kalmar"}
+            "friendly_name": "Kalmar län"}
     },
     {
         "pk": 9, 

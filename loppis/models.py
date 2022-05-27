@@ -5,6 +5,10 @@ from django.contrib.auth.models import User
 
 class County(models.Model):
     """ List of Counties in Sweden """
+
+    class Meta:
+        verbose_name_plural = 'Counties'
+
     county = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254)
 
@@ -17,6 +21,10 @@ class County(models.Model):
 
 class Loppis(models.Model):
     """ Loppis ad model """
+
+    class Meta:
+        verbose_name_plural = 'Loppises'
+
     loppis_id = models.IntegerField(primary_key=True)
     seller = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=254)
@@ -33,7 +41,6 @@ class Loppis(models.Model):
     phone_number = models.CharField(max_length=20, null=False, blank=True)
     image = models.ImageField(null=True, blank=True)
     details = models.TextField(max_length=254, null=True, blank=True)
-
 
     def __str__(self):
         return self.title
