@@ -1,5 +1,4 @@
 """ Home App urls file """
-from django.contrib import admin
 from django.urls import path
 from . import views
 
