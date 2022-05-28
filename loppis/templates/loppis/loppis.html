@@ -19,12 +19,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="loppis-container col-10 offset-1">
+            <div class="col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
                     {% for loppis in loppis %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card h-100 border-0">
+                            <div class="card h-100 border-0 loppis-container">
                                 {% if loppis.image %}
                                 <a href="">
                                     <img class="card-img-top img-fluid" src="{{ loppis.image.url }}" alt="{{ loppis.title }}">
@@ -40,7 +40,7 @@
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ loppis.county }}</p>
                                 </div>
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                <div class="card-footer pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left">{{ loppis.start_date }} - {{ loppis.end_date }}</p>
