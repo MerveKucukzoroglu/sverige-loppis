@@ -78,24 +78,22 @@ body {
 
 /*Footer*/
 
-#footer {
-    position:absolute;
-    bottom:0;
-    width: 100%;
-    height:auto;   /* Height of the footer */
+.footer {
+    bottom: 0;
     background:#101A21;
     color:white;
+    text-align: center;
   }
 
-  .overlay{
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      position: fixed;
-      background: white;
-      z-index: -1;
-  } 
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+} 
 
 /* -------------------------------- Media Queries */
 

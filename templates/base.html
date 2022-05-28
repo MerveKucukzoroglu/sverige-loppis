@@ -34,7 +34,7 @@
 
     <title>Sverige Loppis {% block extra_title %}{% endblock %}</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <header class="container-fluid fixed-top">
       <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-4 my-auto py-1 py-lg-0 text-center text-lg-left header-row">
@@ -122,18 +122,6 @@
     </div>
     </header>
 
-    <div class="text-center">
-      <footer id="footer">
-        <div class="input-group w-50 text-center">
-          <input type="email" placeholder="Sigup to our Newsletter" aria-describedby="newsletter-button" class="form-control border border-dark rounded-0">
-          <div class="input-group-append">
-            <button id="newsletter-button" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
-          </div>
-        </div>
-        <div class="social">Follow us on <a href="" target="_blank">Facebook</a></div>
-        <p class="copyright">Sverige Loppis © 2022</p>
-      </footer>
-    </div>
 
     {% if messages %}
         <div class="message-container"></div>
@@ -144,6 +132,10 @@
 
     {% block content %}
     {% endblock %}
+
+
+
+    {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
     {% endblock %}
